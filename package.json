@@ -1,0 +1,43 @@
+{
+  "name": "mko-custom-sample",
+  "version": "0.0.1",
+  "description": "Sample use mko-custom",
+  "main": "main/index.ts",
+  "scripts": {
+    "start": "live-server app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaciejMisztal/mko-custom-sample.git"
+  },
+  "keywords": [
+    "mko",
+    "knockoutjs",
+    "custom-element"
+  ],
+  "author": "Maciej Misztal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaciejMisztal/mko-custom-sample/issues"
+  },
+  "homepage": "https://github.com/MaciejMisztal/mko-custom-sample#readme",
+  "devDependencies": {
+    "jspm": "^0.16.15",
+    "live-server": "^0.9.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "MaciejMisztal/mko-custom": "github:MaciejMisztal/mko-custom",
+      "knockout": "github:knockout/knockout@^3.4.0",
+      "mko-custom": "github:MaciejMisztal/mko-custom@^0.0.1",
+      "text": "github:systemjs/plugin-text@^0.0.4",
+      "ts": "github:frankwallis/plugin-typescript@^2.4.3"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.7.3"
+    }
+  }
+}

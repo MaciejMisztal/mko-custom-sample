@@ -47,11 +47,11 @@ System.config({
 
   map: {
     "knockout": "github:knockout/knockout@3.4.0",
-    "mko-custom": "github:MaciejMisztal/mko-custom@0.0.2",
+    "mko-custom": "github:MaciejMisztal/mko-custom@0.0.3",
     "text": "github:systemjs/plugin-text@0.0.4",
     "ts": "github:frankwallis/plugin-typescript@2.4.5",
     "typescript": "npm:typescript@1.7.5",
-    "github:MaciejMisztal/mko-custom@0.0.2": {
+    "github:MaciejMisztal/mko-custom@0.0.3": {
       "knockout": "github:knockout/knockout@3.4.0",
       "text": "github:systemjs/plugin-text@0.0.4",
       "ts": "github:frankwallis/plugin-typescript@2.4.5"

@@ -1,6 +1,6 @@
 System.config({
-  defaultJSExtensions: true,
   baseURL: "/",
+  defaultJSExtensions: true,
   transpiler: "typescript",
   typescriptOptions: {
     "noImplicitAny": false,
@@ -47,17 +47,17 @@ System.config({
 
   map: {
     "knockout": "github:knockout/knockout@3.4.0",
-    "mko-custom": "github:MaciejMisztal/mko-custom@0.0.1",
+    "mko-custom": "github:MaciejMisztal/mko-custom@0.0.2",
     "text": "github:systemjs/plugin-text@0.0.4",
-    "ts": "github:frankwallis/plugin-typescript@2.4.3",
-    "typescript": "npm:typescript@1.7.3",
-    "github:MaciejMisztal/mko-custom@0.0.1": {
+    "ts": "github:frankwallis/plugin-typescript@2.4.5",
+    "typescript": "npm:typescript@1.7.5",
+    "github:MaciejMisztal/mko-custom@0.0.2": {
       "knockout": "github:knockout/knockout@3.4.0",
       "text": "github:systemjs/plugin-text@0.0.4",
-      "ts": "github:frankwallis/plugin-typescript@2.4.3"
+      "ts": "github:frankwallis/plugin-typescript@2.4.5"
     },
-    "github:frankwallis/plugin-typescript@2.4.3": {
-      "typescript": "npm:typescript@1.7.3"
+    "github:frankwallis/plugin-typescript@2.4.5": {
+      "typescript": "npm:typescript@1.7.5"
     }
   }
 });

@@ -1,6 +1,6 @@
 {
   "name": "mko-custom-sample",
-  "version": "0.0.4",
+  "version": "1.1.1",
   "description": "Sample use mko-custom",
   "main": "main/index.ts",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/MaciejMisztal/mko-custom-sample#readme",
   "devDependencies": {
-    "jspm": "^0.16.27",
+    "jspm": "^0.16.33",
     "live-server": "^0.9.0"
   },
   "jspm": {
@@ -31,12 +31,12 @@
     },
     "dependencies": {
       "knockout": "github:knockout/knockout@^3.4.0",
-      "mko-custom": "github:MaciejMisztal/mko-custom@0.0.4",
+      "mko-custom": "github:MaciejMisztal/mko-custom@1.1.1",
       "text": "github:systemjs/plugin-text@^0.0.4",
       "ts": "github:frankwallis/plugin-typescript@^2.4.5"
     },
     "devDependencies": {
-      "typescript": "npm:typescript@^1.7.5"
+      "typescript": "npm:typescript@^1.8.9"
     }
   }
 }

@@ -49,7 +49,7 @@ System.config({
     "knockout": "github:knockout/knockout@3.4.0",
     "mko-custom": "github:MaciejMisztal/mko-custom@0.0.4",
     "text": "github:systemjs/plugin-text@0.0.4",
-    "ts": "github:frankwallis/plugin-typescript@2.6.0",
+    "ts": "github:frankwallis/plugin-typescript@4.0.5",
     "typescript": "npm:typescript@1.7.5",
     "github:MaciejMisztal/mko-custom@0.0.4": {
       "knockout": "github:knockout/knockout@3.4.0",
@@ -58,6 +58,18 @@ System.config({
     },
     "github:frankwallis/plugin-typescript@2.6.0": {
       "typescript": "npm:typescript@1.7.5"
+    },
+    "github:frankwallis/plugin-typescript@4.0.5": {
+      "typescript": "npm:typescript@1.8.10"
+    },
+    "github:jspm/nodelibs-os@0.1.0": {
+      "os-browserify": "npm:os-browserify@0.1.2"
+    },
+    "npm:os-browserify@0.1.2": {
+      "os": "github:jspm/nodelibs-os@0.1.0"
+    },
+    "npm:typescript@1.8.10": {
+      "os": "github:jspm/nodelibs-os@0.1.0"
     }
   }
 });

@@ -1,4 +1,4 @@
-import ko from "knockout";
+import * as  ko from "knockout";
 import   "./element/element-decorator";
 import Vm from "./vm";
 

@@ -1,4 +1,4 @@
-import ko from "knockout";
+import * as  ko from "knockout";
 import {mkoCustom} from "mko-custom";
 import templateText from "./element-decorator.html";
 

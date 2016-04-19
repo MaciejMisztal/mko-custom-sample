@@ -23,8 +23,14 @@
   },
   "homepage": "https://github.com/MaciejMisztal/mko-custom-sample#readme",
   "devDependencies": {
+    "jasmine-core": "^2.4.1",
     "jspm": "^0.16.33",
-    "live-server": "^0.9.0"
+    "karma": "^0.13.22",
+    "karma-jasmine": "^0.3.8",
+    "karma-jspm": "^2.1.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "live-server": "^0.9.0",
+    "phantomjs-prebuilt": "^2.1.7"
   },
   "jspm": {
     "directories": {

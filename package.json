@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/MaciejMisztal/mko-custom-sample#readme",
   "devDependencies": {
+    "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
     "jspm": "^0.16.33",
     "karma": "^0.13.22",
@@ -45,5 +46,6 @@
     "devDependencies": {
       "typescript": "npm:typescript@^1.8.10"
     }
-  }
+  },
+  "dependencies": {}
 }

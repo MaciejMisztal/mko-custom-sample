@@ -11,18 +11,19 @@ module.exports = function (config) {
 
         jspm: {
             loadFiles: [
-                'src/**/*.spec.ts'
+               'src/**/*.spec.ts'
+               //'src/spec/env.spec.ts'
             ],
             serveFiles: [
-                '**/*!(*.spec).ts',
+                'src/**/*!(*.spec).ts',
                 '../tsconfig.json'
             ]
         },
 
         proxies: {
-            '/app': '/base/app',
+            '/src': '/base/src',
             '/jspm_packages': '/base/jspm_packages',
-            '../../tsconfig.json': '/base/tsconfig.json'
+            '/tsconfig.json': '/base/tsconfig.json'
         },
 
         browsers: ['PhantomJS']

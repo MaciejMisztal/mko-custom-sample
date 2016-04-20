@@ -5,14 +5,13 @@ module.exports = function (config) {
 
         basePath: './app',
 
-        singleRun: true,
+        singleRun: false,
 
         frameworks: ['jspm', 'jasmine'],
 
         jspm: {
             loadFiles: [
                'src/**/*.spec.ts'
-               //'src/spec/env.spec.ts'
             ],
             serveFiles: [
                 'src/**/*!(*.spec).ts',
@@ -25,7 +24,7 @@ module.exports = function (config) {
             '/jspm_packages': '/base/jspm_packages',
             '/tsconfig.json': '/base/tsconfig.json'
         },
-
+        reporters: ['spec'],
         browsers: ['PhantomJS']
     });
 };

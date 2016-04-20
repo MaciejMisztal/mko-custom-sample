@@ -1,3 +1,3 @@
 describe('Env', () => {
-    it('should be transpiled', () => expect(true).toEqual(true));
+    it('should be transpilation fired', () => expect(true).toEqual(true));
 });

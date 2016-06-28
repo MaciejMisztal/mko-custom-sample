@@ -4,7 +4,8 @@
     "noImplicitAny": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-     "sourceMap": false
+     "sourceMap": false,
+     "moduleResolution": "node"
   },
   "compileOnSave": false,
   "buildOnSave": false,

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+	<div data-bind="visible: !waitSuccessed">
+		Be patient :)
+	</div>
+	<element-decorator params='initialText:  textValue'></element-decorator>
+	<div data-bind="visible: waitSuccessed" style="display: none">
+		Value from demo custom element: <span data-bind="text: textValue"></span>
+	</div>
+	<script src="build/bundle.js"></script>
+</body>
+
+</html>

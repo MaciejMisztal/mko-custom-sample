@@ -1,11 +1,11 @@
 {
   "name": "mko-custom-sample",
-  "version": "0.1.2",
+  "version": "1.0.2",
   "description": "Sample use mko-custom",
   "main": "main/index.ts",
   "scripts": {
     "start": "live-server app",
-    "build": "jspm bundle-sfx ./app/src/index.ts app/build/bundel.js --skip-source-maps --minify"
+    "build": "jspm bundle-sfx ./app/src/index.ts app/build/bundle.js --skip-source-maps --minify"
   },
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     },
     "dependencies": {
       "knockout": "github:knockout/knockout@^3.4.0",
-      "mko-custom": "github:MaciejMisztal/mko-custom@^0.1.1",
+      "mko-custom": "github:MaciejMisztal/mko-custom@^1.0.2",
       "text": "github:systemjs/plugin-text@^0.0.7",
       "ts": "github:frankwallis/plugin-typescript@^4.0.6"
     },
